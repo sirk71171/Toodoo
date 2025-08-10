@@ -3,9 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+    </style>
+    <script src="https://kit.fontawesome.com/9dbf113053.js" crossorigin="anonymous" defer></script>
     <title>Toodoo</title>
 <script defer src="main.js"></script></head>
 <body>
-    
+    <div id="main-content">
+        <h1 id="appName">TOODOO</h1>
+        <div id="navDiv">
+            <ul id="sidebar">
+                <li>
+                    <button id="toggle-btn">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                </li>
+                <li class="active">
+                    <div id="projects">
+                        <i class="fa-solid fa-book"></i>
+                        <span>Projects</span>
+                    </div>
+                </li>
+                <li>
+                    <div id="toodoos">
+                        <i class="fa-solid fa-list"></i>
+                        <span>Toodoos</span>
+                    </div>
+                </li>
+                <li>
+                    <div id="charts">
+                        <i class="fa-solid fa-chart-area"></i>
+                        <span>Charts</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div id="body-content">
+
+        </div>
+    </div>
 </body>
 </html>
